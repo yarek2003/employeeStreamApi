@@ -16,7 +16,6 @@ import java.util.Map;
 @Service
 public class EmployeeService {
     public static final int MAX_SIZE = 100;
-
     private final Map<String, Employee> employees;
 
     public EmployeeService() {
